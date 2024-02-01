@@ -68,7 +68,8 @@
 /* #endregion Main */
 
 .development,
-.benefit {
+.benefit,
+.call-to-action {
     background-color: var(--layout-secondary);
 }
 
