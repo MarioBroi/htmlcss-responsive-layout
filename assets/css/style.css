@@ -49,6 +49,17 @@
 
 /* #endregion Header */
 
+#site-header {
+    color: var(--layout-lighter);
+    background-color: var(--layout-primary);
+
+    &>.container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
 /* #endregion Header */
 
 /* #endregion Main */
