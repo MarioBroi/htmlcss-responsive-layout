@@ -59,7 +59,7 @@ body {
 
 /* #endregion Header */
 
-#site-header {
+.site-header {
     color: var(--layout-lighter);
     background-color: var(--layout-primary);
 
@@ -80,10 +80,11 @@ body {
     padding: 1rem 0;
 }
 
-.btn-header {
+#btn-header {
     color: var(--layout-dark);
     background-color: var(--layout-lighter);
     border-radius: 50px;
+    padding: 0.2rem 0.5rem;
 }
 
 /* #endregion Header */
