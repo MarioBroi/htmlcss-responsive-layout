@@ -77,4 +77,9 @@
 
 /* #endregion Footer */
 
+#site-footer {
+    color: var(--layout-lighter);
+    background-color: var(--layout-dark);
+}
+
 /* #endregion Footer */
