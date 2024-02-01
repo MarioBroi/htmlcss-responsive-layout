@@ -72,7 +72,7 @@ body {
     & a {
         color: var(--layout-lighter);
         text-decoration: none;
-        padding: 0 0.3rem;
+        padding: 0 1rem;
     }
 }
 
@@ -95,6 +95,15 @@ body {
 .benefit,
 .call-to-action {
     background-color: var(--layout-secondary);
+}
+
+.demo [class^="col-"] {
+    border-radius: 20px;
+    background-color: var(--layout-light);
+}
+
+.img-demo {
+    width: 300px;
 }
 
 /* #endregion Main */
