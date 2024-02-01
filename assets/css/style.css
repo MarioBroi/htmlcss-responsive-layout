@@ -83,3 +83,40 @@
 }
 
 /* #endregion Footer */
+
+/* #region Responsive */
+
+@media screen and (min-width: 768px) {}
+
+/* /media small rule */
+
+@media screen and (min-width: 992px) {
+
+    .col-md-8 {
+        width: calc((100%/12)*8);
+    }
+
+    .col-md-4 {
+        width: calc((100%/12)*4);
+    }
+
+    .col-md-6 {
+        width: calc((100%/12)*6);
+    }
+
+    .d-flex {
+        display: flex;
+
+        &>.left {
+            flex-grow: 2;
+        }
+
+        &>.rigth {
+            flex-grow: 1;
+        }
+    }
+}
+
+/* /media medium rule */
+
+/* #endregion Responsive */
