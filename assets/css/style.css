@@ -67,7 +67,8 @@
 
 /* #endregion Main */
 
-.development {
+.development,
+.benefit {
     background-color: var(--layout-secondary);
 }
 
