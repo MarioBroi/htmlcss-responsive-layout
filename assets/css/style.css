@@ -110,7 +110,7 @@ body {
     background-color: var(--layout-light);
 
     &>h3 {
-        font-size: 30px;
+        font-size: 25px;
         padding-top: 2rem;
         color: var(--layout-primary);
     }
@@ -124,6 +124,25 @@ body {
     &>p {
         padding: 2rem 1rem;
     }
+
+    &>.demo-left {
+        &>h3 {
+            font-size: 25px;
+            padding-top: 2rem;
+            color: var(--layout-primary);
+        }
+
+        &>i {
+            font-size: 70px;
+            padding-top: 3rem;
+            color: var(--layout-primary);
+        }
+
+        &>p {
+            padding: 2rem 1rem;
+        }
+    }
+
 }
 
 .btn-appstore {
@@ -467,6 +486,24 @@ body {
         & p:first-of-type {
             padding-bottom: 2rem;
         }
+    }
+
+    .demo .col-md-8>.card {
+        display: flex;
+    }
+
+    .img-demo {
+        width: 100%;
+        margin-top: 70%;
+    }
+
+    .demo-left>h3 {
+        margin-left: 1rem;
+        text-align: left;
+    }
+
+    .btn-appstore {
+        margin-left: 1rem;
     }
 
 }
