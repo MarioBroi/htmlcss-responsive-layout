@@ -139,7 +139,6 @@ body {
 .img-demo {
     display: block;
     width: 50%;
-    margin-bottom: -1rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -387,6 +386,22 @@ body {
 
     .col-md-8 {
         width: calc((100%/12)*8);
+
+        &>.card {
+            text-align: justify;
+
+            &>h3 {
+                padding: 1rem;
+            }
+
+            &>a {
+                margin-left: 1rem;
+            }
+
+            &>img {
+                margin-left: 1rem;
+            }
+        }
     }
 
     .col-md-4 {
