@@ -61,7 +61,7 @@ body {
 
 /* #endregion Utility */
 
-/* #endregion Header */
+/* #region Header */
 
 .site-header {
     color: var(--layout-lighter);
@@ -101,17 +101,36 @@ body {
     background-color: var(--layout-secondary);
 }
 
-.demo [class^="col-"] {
-    border-radius: 20px;
-    text-align: center;
+/* /generic */
+
+
+.demo .card {
+    min-height: 100%;
+    border-radius: 15px;
     background-color: var(--layout-light);
+
+    &>h3 {
+        font-size: 30px;
+        padding-top: 2rem;
+        color: var(--layout-primary);
+    }
+
+    &>i {
+        font-size: 70px;
+        padding-top: 3rem;
+        color: var(--layout-primary);
+    }
+
+    &>p {
+        padding: 2rem 1rem;
+    }
 }
 
 .btn-appstore {
-    display: block;
+    display: inline-block;
     text-decoration: none;
-    padding: 0.3rem 0.5rem;
-    margin: 0.5rem 0;
+    padding: 0.3rem 3rem;
+    margin: 0.5rem 0 2rem 0;
     color: var(--layout-lighter);
     border-radius: 20px;
     background-color: var(--layout-primary);
@@ -119,20 +138,10 @@ body {
 
 .img-demo {
     display: block;
-    width: 300px;
+    width: 50%;
     margin-bottom: -1rem;
-}
-
-.col-12,
-.col-md-4 {
-    &>i {
-        color: var(--layout-primary);
-        font-size: 70px;
-    }
-
-    &>h3 {
-        color: var(--layout-primary);
-    }
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* /demo section */
@@ -147,7 +156,7 @@ body {
     }
 
     &>img {
-        width: 300px;
+        width: 100%;
         margin: 3rem 0;
     }
 
@@ -158,11 +167,11 @@ body {
 
 .development .card {
     &>img {
-        width: 250px;
+        width: 100%;
     }
 }
 
-.development .col-12:last-child {
+.development .col-12:nth-of-type(2) {
     color: var(--layout-dark);
     background-color: white;
     border-radius: 10%;
@@ -171,7 +180,7 @@ body {
 
 .round-arrow {
     display: inline-block;
-    padding: 0.5rem 0.7rem;
+    padding: 0.5rem 0.8rem;
     margin-top: 1rem;
     border-radius: 50%;
     background-color: var(--layout-secondary);
