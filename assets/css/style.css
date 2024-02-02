@@ -135,6 +135,8 @@ body {
     }
 }
 
+/* /demo section */
+
 .development .col-12 {
     color: var(--layout-lighter);
 
@@ -178,6 +180,8 @@ body {
         color: var(--layout-dark);
     }
 }
+
+/* /development section */
 
 /* #endregion Main */
 
