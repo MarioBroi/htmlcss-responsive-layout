@@ -273,6 +273,54 @@ body {
 
 /* /benefit section */
 
+.about-us .left,
+.right {
+    padding: 3rem 0;
+
+    &>h1 {
+        color: var(--layout-secondary);
+        padding: 1rem 0;
+    }
+
+    &>p {
+        padding: 1rem 0;
+    }
+
+    &>img {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        /* position: relative; */
+    }
+
+    &>h2 {
+        color: var(--layout-secondary);
+        padding-bottom: 2rem;
+    }
+
+    &>a {
+        text-decoration: none;
+        color: var(--layout-lighter);
+        padding: 0.3rem 0.5rem;
+        background-color: var(--layout-secondary);
+        border-radius: 20px;
+    }
+}
+
+.about-us .right {
+    position: relative;
+}
+
+.over-img {
+    position: absolute;
+    color: var(--layout-secondary);
+    font-size: 100px;
+}
+
+
+
+/* /about-us section */
+
 /* #endregion Main */
 
 /* #endregion Footer */
