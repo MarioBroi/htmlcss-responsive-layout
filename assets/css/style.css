@@ -317,9 +317,44 @@ body {
     font-size: 100px;
 }
 
-
-
 /* /about-us section */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    &>p {
+        color: var(--layout-lighter);
+        padding: 2rem 0;
+
+        &>a {
+            color: var(--layout-lighter);
+        }
+    }
+
+    &>h3 {
+        color: var(--layout-lighter);
+        font-size: 25px;
+        padding: 2rem 0;
+    }
+
+    &>h2 {
+        color: var(--layout-focus);
+        font-size: 50px;
+    }
+}
+
+.btn-started {
+    text-decoration: none;
+    color: var(--layout-secondary);
+    background-color: var(--layout-lighter);
+    padding: 1rem 2rem;
+    border-radius: 30px;
+}
+
+/* /call-to-action */
 
 /* #endregion Main */
 
