@@ -203,6 +203,28 @@ body {
     }
 }
 
+.testimonials img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+
+.testimonials .card {
+    border-radius: 50px;
+    background-color: var(--layout-secondary);
+    margin: 1rem 0;
+}
+
+.testimonials .card:nth-of-type(4) {
+    margin-bottom: 5rem;
+}
+
+.testimonials-comment {
+    color: var(--layout-lighter);
+    padding: 1rem 0.5rem;
+}
+
 /* /testimonial section */
 
 /* #endregion Main */
