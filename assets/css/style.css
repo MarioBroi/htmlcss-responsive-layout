@@ -227,6 +227,52 @@ body {
 
 /* /testimonial section */
 
+.benefit-title {
+    text-align: center;
+    color: var(--layout-lighter);
+    padding: 4rem 0;
+    font-size: 20px;
+}
+
+.benefit .card {
+    text-align: start;
+    padding: 3rem 2rem;
+    border-radius: 30px;
+    background-color: var(--layout-lighter);
+
+    &>h1,
+    h3 {
+        color: var(--layout-secondary);
+    }
+
+    &>h1 {
+        font-size: 50px;
+    }
+
+    &>h3 {
+        font-size: 30px;
+        padding: 2rem 0;
+    }
+
+    &>p {
+        padding-bottom: 2rem;
+    }
+}
+
+.btn-more {
+    color: var(--layout-lighter);
+    text-decoration: none;
+    padding: 0.5rem 3rem;
+    border-radius: 30px;
+    background-color: var(--layout-secondary);
+}
+
+.benefit {
+    padding-bottom: 5rem;
+}
+
+/* /benefit section */
+
 /* #endregion Main */
 
 /* #endregion Footer */
