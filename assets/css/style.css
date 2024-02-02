@@ -365,6 +365,16 @@ body {
     background-color: var(--layout-dark);
 }
 
+#site-footer .top,
+.bottom {
+    text-align: center;
+    padding: 2rem;
+
+    &>a {
+        color: var(--layout-secondary);
+    }
+}
+
 /* #endregion Footer */
 
 /* #region Responsive */
