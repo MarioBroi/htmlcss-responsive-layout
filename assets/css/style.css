@@ -192,6 +192,19 @@ body {
 
 /* /development section */
 
+.testimonials-title {
+    text-align: center;
+    padding: 3rem 0;
+
+    &>h3 {
+        font-size: 35px;
+        color: var(--layout-secondary);
+        padding: 2rem 0;
+    }
+}
+
+/* /testimonial section */
+
 /* #endregion Main */
 
 /* #endregion Footer */
