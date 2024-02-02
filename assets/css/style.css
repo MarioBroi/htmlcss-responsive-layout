@@ -463,6 +463,10 @@ body {
     .development .row {
         flex-wrap: nowrap;
         align-items: flex-end;
+
+        & p:first-of-type {
+            padding-bottom: 2rem;
+        }
     }
 
 }
