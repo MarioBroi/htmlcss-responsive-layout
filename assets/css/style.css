@@ -223,9 +223,10 @@ body {
 
 .testimonials img {
     width: 200px;
-    height: 200px;
+    height: 170px;
     border-radius: 50%;
-    margin-top: 2rem;
+    object-fit: cover;
+    padding: 1rem 2rem;
 }
 
 .testimonials .card {
@@ -239,8 +240,10 @@ body {
 }
 
 .testimonials-comment {
+    align-self: center;
+    text-align: left;
     color: var(--layout-lighter);
-    padding: 1rem 0.5rem;
+    padding: 0.5rem 2rem;
 }
 
 /* /testimonial section */
