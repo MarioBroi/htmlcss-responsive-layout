@@ -129,6 +129,7 @@ body {
         &>h3 {
             font-size: 25px;
             padding-top: 2rem;
+            margin-left: 1rem;
             color: var(--layout-primary);
         }
 
@@ -143,13 +144,17 @@ body {
         }
     }
 
+    &>.demo-right {
+        justify-self: end;
+    }
+
 }
 
 .btn-appstore {
     display: inline-block;
     text-decoration: none;
     padding: 0.3rem 3rem;
-    margin: 0.5rem 0 2rem 0;
+    margin: 0.5rem 0 2rem 1rem;
     color: var(--layout-lighter);
     border-radius: 20px;
     background-color: var(--layout-primary);
@@ -425,6 +430,11 @@ body {
             &>img {
                 margin-left: 1rem;
             }
+
+        }
+
+        & .img-demo {
+            margin-left: 0;
         }
     }
 
